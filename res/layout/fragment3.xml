@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff18181c"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/tv_p3_1"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43.0dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/tv_p3_2"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43.0dip" />
+
+        <TextView
+            android:id="@id/tv_p3_3"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/tv_p3_4"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/tv_p3_5"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/tv_p3_6"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43.0dip" />
+
+        <TextView
+            android:id="@id/tv_p3_7"
+            style="@style/eq_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43.0dip"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_weight="10.0"
+        android:background="@drawable/p3_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/p3_bg_left" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb"
+            android:visibility="gone" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb" />
+
+        <com.coresmore.xfosd.view.VerticalSeekBar
+            android:id="@id/seek_p3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:max="24"
+            android:progress="12"
+            android:progressDrawable="@drawable/sound_seekbar_style"
+            android:thumb="@drawable/ic_p3_thumb"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/p3_bg_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/p3_bg_text"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer1"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer2"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer3"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer4"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer5"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer6"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_equalizer7"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@id/bt_retEQ"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_eq_selector"
+            android:text="重置EQ"
+            android:textColor="@drawable/main_text_selector" />
+    </FrameLayout>
+
+</LinearLayout>

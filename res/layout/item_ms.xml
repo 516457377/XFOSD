@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff38353c"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="#ff327bc3"
+        android:gravity="center"
+        android:text="@string/str_laterLeft"
+        android:textColor="#ffffffff"
+        android:textSize="20.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_sub"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/item_btn_sub_selector" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/tv_ms"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:gravity="center"
+                android:text="@string/str_ms"
+                android:textColor="#ffffffff" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:background="#ff46444a" />
+
+            <TextView
+                android:id="@id/tv_cm"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:gravity="center"
+                android:text="@string/str_cm"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/item_btn_add_selector" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@id/seek_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:max="200"
+        android:progressDrawable="@drawable/item_seekbar_style"
+        android:thumb="@drawable/item_thumb_selector" />
+
+</LinearLayout>

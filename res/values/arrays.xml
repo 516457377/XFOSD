@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="date">
+        <item>阿尔法·罗密欧</item>
+        <item>奥迪</item>
+        <item>奔驰</item>
+        <item>宝骏</item>
+        <item>宝马</item>
+        <item>本田</item>
+        <item>保时捷</item>
+        <item>大众</item>
+        <item>福特</item>
+        <item>哈弗</item>
+        <item>红旗</item>
+        <item>雷克萨斯</item>
+        <item>马萨拉蒂</item>
+        <item>讴歌</item>
+        <item>奇瑞</item>
+        <item>特斯拉</item>
+    </string-array>
+    
+    <string-array name="item0">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <integer-array name="item0_1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    
+    <integer-array name="item0_2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    
+    <string-array name="item1">
+        <item>奧迪A4L</item>
+        <item>奧迪A4L</item>
+        <item>奧迪Q4</item>
+        <item>奧迪A4L</item>
+        <item>奧迪A4L</item>
+        <item>奧迪A4L</item>
+        <item>奧迪A4L</item>
+        <item>奧迪A4L</item>
+    </string-array>
+    
+    <integer-array name="item1_1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    
+    <integer-array name="item1_2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    
+    <string-array name="item2">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item3">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item4">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item5">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item6">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item7">
+        <item>宝马X1</item>
+        <item>宝马1系</item>
+        <item>宝马2系</item>
+        <item>宝马2系旅行车</item>
+        <item>宝马3系</item>
+        <item>宝马3系GT</item>
+        <item>宝马4系</item>
+        <item>宝马5系</item>
+        <item>宝马5系GT</item>
+        <item>宝马6系</item>
+        <item>宝马7系</item>
+        <item>宝马i3</item>
+    </string-array>
+    
+    <string-array name="item8">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item9">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item10">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item11">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item12">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item13">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item14">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item15">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+    <string-array name="item16">
+        <item>Giulia</item>
+        <item>Stelvio</item>
+    </string-array>
+    
+</resources>

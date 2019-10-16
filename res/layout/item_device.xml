@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLE SPP"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:id="@id/device_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10.0dip"
+            android:text="Rssi:-30"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/device_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2a:9a:21:33:aa:b1"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>

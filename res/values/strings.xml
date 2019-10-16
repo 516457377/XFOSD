@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_fail">抱歉，本机不支持Ble数据通信。</string>
+    <string name="str_access_hint">为了使用蓝牙扫描，请打开定位权限。</string>
+    <string name="str_blue_hit">请打开蓝牙。</string>
+    <string name="str_main_connect">已连接</string>
+    <string name="str_main_disconnect">未连接</string>
+    <string name="str_wait">请稍后</string>
+    <string name="str_connecting">设备连接中</string>
+    <string name="str_connect_ok">连接成功</string>
+    <string name="str_connect_fail">连接失败，请稍后再试。</string>
+    <string name="str_disconnect">断开连接</string>
+    <string name="str_scanFail">扫描失败，请检查蓝、权限牙是否打开。</string>
+    <string name="str_scan_noDevice">未找到符合通信协议的设备。</string>
+    <string name="str_setting">工厂设置</string>
+    <string name="str_openGPS">打开GPS</string>
+    <string name="str_GPS_hint">已打开GPS。</string>
+    <string name="str_openMSG">为了使用蓝牙扫描功能，请打开定位功能(高精确度)。</string>
+    <string name="str_cancle">取消</string>
+    <string name="str_gosetting">去设置</string>
+    <string name="str_rstEQ">重置EQ</string>
+    <string name="str_rssi">Rssi:%1$d</string>
+    <string name="app_name">蓝牙通信</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_home">主页</string>
+    <string name="str_horn">喇叭控制</string>
+    <string name="str_EQ">EQ</string>
+    <!-- fragment1 -->
+    <string name="str_default">默认</string>
+    <string name="str_aux">AUX</string>
+    <string name="str_spdif">同轴</string>
+    
+    <string name="str_sound">音量</string>
+    <string name="str_t1">原声</string>
+    <string name="str_t2">摇滚</string>
+    <string name="str_t3">流行</string>
+    <string name="str_t4">爵士</string>
+    <string name="str_t5">古典</string>
+    <string name="str_t6">用户</string>
+    <string name="str_beforeLeft">前左</string>
+    <string name="str_beforeRight">前右</string>
+    <string name="str_laterLeft">后左</string>
+    <string name="str_laterRight">后右</string>
+    <string name="str_beforeLeftDL">前左延时</string>
+    <string name="str_beforeRightDL">前右延时</string>
+    <string name="str_laterLeftDL">后左延时</string>
+    <string name="str_laterRightDL">后右延时</string>
+    <string name="str_0">0°</string>
+    <string name="str_180">180°</string>
+    <string name="str_ms">%1$1.3fMS</string>
+    <string name="str_ms_1">%1$1.2fMS</string>
+    <string name="str_cm">%1$1.2fCM</string>
+    <string name="str_custom">自定义</string>
+    <string name="str_speaker">扬声器</string>
+    <string name="str_equalizer1">超低</string>
+    <string name="str_equalizer2">低音</string>
+    <string name="str_equalizer3">中低</string>
+    <string name="str_equalizer4">中音</string>
+    <string name="str_equalizer5">中高</string>
+    <string name="str_equalizer6">高音</string>
+    <string name="str_equalizer7">超高</string>
+    
+    <string name="str_versions">DSP:%1$s/APK:%2$s</string>
+</resources>

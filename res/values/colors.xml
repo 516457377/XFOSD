@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cl_text_disable_default">#99787878</color>
+    <color name="cl_text_bottom_default">#ff787878</color>
+    <color name="cl_text_white">#ffffffff</color>
+    <color name="cl_text_blue">#ff0048ff</color>
+
+</resources>
