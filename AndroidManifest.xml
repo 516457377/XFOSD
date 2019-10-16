@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.coresmore.xfosd"
-    android:versionCode="2019101610"
-    android:versionName="1.37" >
+    android:versionCode="2019101615"
+    android:versionName="1.38" >
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />

@@ -798,6 +798,7 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
                 }
                 if (null != fragment3) {
                     fragment3.getBleData();
+                    fragment3.onHiddenChanged(false);
                 }else{
 //                    fragment3 = new Fragment_3();
 //                    fragment3.setData(mBleDevice, dataModule);
