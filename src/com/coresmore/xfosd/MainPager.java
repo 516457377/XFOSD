@@ -44,6 +44,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
@@ -797,8 +798,9 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
                     toastOne("数据异常,请联系开发人员。");
                 }
                 if (null != fragment3) {
-                    fragment3.getBleData();
-                    fragment3.onHiddenChanged(false);
+                    //不需要EQ页了。
+//                    fragment3.getBleData();
+//                    fragment3.onHiddenChanged(false);
                 }else{
 //                    fragment3 = new Fragment_3();
 //                    fragment3.setData(mBleDevice, dataModule);

@@ -31,12 +31,12 @@
     <string name="str_spdif">同轴</string>
     
     <string name="str_sound">音量</string>
-    <string name="str_t1">原声</string>
+    <string name="str_t1">标准</string>
     <string name="str_t2">摇滚</string>
     <string name="str_t3">流行</string>
     <string name="str_t4">爵士</string>
     <string name="str_t5">古典</string>
-    <string name="str_t6">用户</string>
+    <string name="str_t6">人声</string>
     <string name="str_beforeLeft">前左</string>
     <string name="str_beforeRight">前右</string>
     <string name="str_laterLeft">后左</string>

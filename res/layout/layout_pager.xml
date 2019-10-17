@@ -81,7 +81,8 @@
             android:background="@drawable/main_btn_bottom_selector"
             android:onClick="onClick"
             android:text="@string/str_EQ"
-            android:textColor="@drawable/main_text_selector" />
+            android:textColor="@drawable/main_text_selector"
+            android:visibility="gone" />
     </LinearLayout>
 
     <FrameLayout
@@ -126,7 +127,7 @@
                 android:textColor="#fff0f0f0"
                 android:textSize="15.0sp" />
         </LinearLayout>
-        
+
         <ProgressBar
             android:id="@+id/progress"
             android:layout_width="100dp"
@@ -137,7 +138,7 @@
             android:indeterminateDrawable="@drawable/dialog_loading2"
             android:indeterminateOnly="true"
             android:visibility="gone" />
-        
+
         <ListView
             android:id="@id/list_device"
             android:layout_width="fill_parent"
@@ -148,6 +149,6 @@
             android:background="@drawable/loading_bg"
             android:gravity="center"
             android:visibility="gone" />
-    </FrameLayout>
+    </FrameLayout>
 
 </RelativeLayout>
