@@ -80,6 +80,8 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
     private BleDevice mBleDevice;
     private BleManager mBleManager;
 
+    private TextView tv_listen;
+    
     private List<BleDevice> mList = new ArrayList();
     protected String mMac;
     Toast mToast = null;
@@ -509,6 +511,8 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
         mBleManager = BleManager.getInstance();
         mBleManager.init(getApplication());
         mBleManager.enableLog(true).setReConnectCount(1, 3000L).setConnectOverTime(7000L).setOperateTimeout(5000);
+        tv_listen = findViewById(R.id.tv_listen);
+        
     }
 
     private void openGPSSEtting() {
@@ -604,8 +608,30 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
         }
         super.onBackPressed();
     }
+    
+    public void setListen(byte b){
+        if (b == 0x00) {
+            tv_listen.setSelected(false);
+        }else if(b == 0x01){
+            tv_listen.setSelected(true);
+        }
+    }
 
     public void onClick(View paramView) {
+        
+        if (paramView.getId() == R.id.tv_listen) {
+            if (null == mBleDevice) {
+                toastOne(getString(R.string.str_main_disconnect));
+                return;
+            }
+            if (tv_listen.isSelected()) {
+                dataModule.bleWriteToString(Utlis.getCheckByte(new byte[] { 0x45, 0x0d, (byte) 0x00 }), mBleDevice);
+            } else {
+                dataModule.bleWriteToString(Utlis.getCheckByte(new byte[] { 0x45, 0x0d, (byte) 0x01 }), mBleDevice);
+            }
+            tv_listen.setSelected(!tv_listen.isSelected());
+            return;
+        }
         setBtnSetect(paramView);
         switch (paramView.getId()) {
         case R.id.btn_1:
@@ -714,7 +740,7 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
 
     }
 
-    public int type1_1, type1_2, type1_3, type2_1, type2_2, type3;
+    public int type1_1, type1_2, type1_3, type2_1, type2_2, type3,type1_4 = -1;
     /**
      * @data1 01
      * @data2 0,1,1,1,0,0
@@ -773,7 +799,7 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
         }
 
         /*
-         * 长度13 参数1-9：GEQ调节， 参数10-11：车型选择， 参数12-13：版本号，
+         * 长度14 参数1-9：GEQ调节， 参数10-11：车型选择， 参数12-13：版本号， 参数14；聆听位0关1开
          */
         if (data[0] == 0x58 && data[1] == 0x21) {
 //             toastOne(data.length+"__"+ data[2]+ "_"+data[3]+"_"+ 
@@ -783,7 +809,7 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
              SpUtlis.setEqValue(this, data[2],data[3],data[4],data[5],data[6],data[7],data[8]);
             if (Utlis.checkByte(data)) {
                 try {
-                    if (data.length != 16) {
+                    if (data.length != 17) {
                         toastOne("数据长度异常。");
                         return;
                     }
@@ -793,7 +819,10 @@ public class MainPager extends Activity implements IBleWriteListener, IBleNotify
                                 data[10] };
                     }
                     versions = data[13]+"."+data[14];
+
+                    setListen(data[15]);
                     // TODO
+                    
                 } catch (Exception e) {
                     toastOne("数据异常,请联系开发人员。");
                 }

@@ -26,6 +26,7 @@
     <string name="str_horn">喇叭控制</string>
     <string name="str_EQ">EQ</string>
     <!-- fragment1 -->
+    <string name="str_listen">聆听位</string>
     <string name="str_default">默认</string>
     <string name="str_aux">AUX</string>
     <string name="str_spdif">同轴</string>

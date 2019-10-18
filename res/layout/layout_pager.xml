@@ -41,7 +41,21 @@
             android:background="@drawable/btn_eq_selector"
             android:text="@string/str_rstEQ"
             android:textColor="@drawable/main_text_selector"
-            android:visibility="gone" />
+            android:visibility="gone"/>
+        
+        <TextView
+            android:id="@+id/tv_listen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginEnd="0dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:drawableTop="@drawable/listen_selector"
+            android:gravity="center"
+            android:text="@string/str_listen"
+            android:textColor="@drawable/main_text_selector" />
     </RelativeLayout>
 
     <LinearLayout

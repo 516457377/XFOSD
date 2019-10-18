@@ -209,6 +209,7 @@ public class Fragment_1 extends Fragment {
         tv_home_4.setOnClickListener(tvClickListener);
         tv_home_5.setOnClickListener(tvClickListener);
         tv_home_6.setOnClickListener(tvClickListener);
+        
         setBtnSetect(tv_home_1);
         
         tv_1.setOnClickListener(tvTopClickListener);
